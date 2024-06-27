@@ -1,0 +1,32 @@
+body {
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.missionlist-div{
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  padding-left: 200px;
+  padding-right: 200px;
+  
+}
+
+/* .css-1ex1afd-MuiTableCell-root{
+  width: 85px;
+} */
+ .slic-img{
+  height:200px;
+  width: 100%;
+ }
+ .mission-details{
+  border: solid;
+  box-shadow:5px 5px  25px -5px rgba(0, 0, 0, 0.5);
+ }
+.mission-details h2{
+  text-align: center;
+  text-decoration: underline;
+   
+}
