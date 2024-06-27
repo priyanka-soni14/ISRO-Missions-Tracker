@@ -3,6 +3,7 @@ import react, { useEffect, useState } from 'react'
 import { useNavigate } from "react-router-dom";
 import Navbar from './Navbar';
 import SlicSlider from './SlicSlider';
+import { Block } from '@mui/icons-material';
 
 
 const Missionlist=()=>{
@@ -27,7 +28,7 @@ const Missionlist=()=>{
         <div className='missionlist-div'>
             <Typography variant="h4" sx={{textAlign:"center", bgcolor:"black",color:"white"}}>Mission Details</Typography>
             <TableContainer component={Paper}>
-                <Table sx={{ minWidth: 650 }} aria-label="simple table">
+                <Table aria-label="simple table">
                     <TableHead>
                         <TableRow>
                             <TableCell>Name of Mission</TableCell>
