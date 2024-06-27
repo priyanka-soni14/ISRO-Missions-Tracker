@@ -9,8 +9,8 @@ body {
   display: flex;
   flex-direction: column;
   padding: 50px;
-  padding-left: 200px;
-  padding-right: 200px;
+  padding-left: 50px;
+  padding-right: 50px;
   
 }
 
